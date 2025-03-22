@@ -1,5 +1,5 @@
 /*----------------------------------------------------------------------------------*/
-/*   FATEC-SC#o Caetano do Sul                 Estrutura de Dados                   */
+/*   FATEC-São Caetano do Sul                 Estrutura de Dados                    */
 /*                         Id da Atividade: S1-B1-3                                 */
 /*             Objetivo: << Maipulação de Lista Ligada >>                           */
 /*                                                                                  */
