@@ -3,7 +3,7 @@
 /*                         Id da Atividade: S1-B1-4                                 */
 /*             Objetivo: <<  Manipulação de Pilha - Implementado HP12c  >>          */
 /*                                                                                  */
-/*                                  Autora: Vinicius da Silva Ramos                 */
+/*                                  Autor: Vinicius da Silva Ramos                  */
 /*                                                                   Data:01/04/2025*/
 /*----------------------------------------------------------------------------------*/
 
