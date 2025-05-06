@@ -1,3 +1,13 @@
+/*----------------------------------------------------------------------------------*/
+/*   FATEC-São Caetano do Sul                 Estrutura de Dados                    */
+/*                         Id da Atividade: S1-B2-2                                 */
+/*             Objetivo: <<  Bublle Sort >>                                         */
+/*                                                                                  */
+/*                                  Autor: Vinicius da Silva Ramos                  */
+/*                                                                   Data:06/05/2025*/
+/*----------------------------------------------------------------------------------*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -11,7 +21,7 @@ int main() {
     char extra;
     char resposta;
 
-    vetor = (float*) malloc(5 * sizeof(float));  // Aloca espaço para até 5 números
+    vetor = (float*) malloc(5 * sizeof(float));  
     if (vetor == NULL) {
         printf("Erro na alocação de memória!\n");
         return 1;
@@ -25,7 +35,7 @@ int main() {
             continue;
         }
 
-        // Verifica se a entrada é um número válido
+        
         if (sscanf(buffer, "%f %c", &entrada, &extra) != 1) {
             printf("Entrada inválida! Por favor, digite um número válido.\n");
             continue;
@@ -42,12 +52,12 @@ int main() {
         printf("Deseja digitar outro número? (s/n): ");
         resposta = getchar();
 
-        // Limpa o buffer depois de pegar a resposta
+    
         while (getchar() != '\n');
 
     } while (resposta == 's' || resposta == 'S');
 
-    // Ordenação Bubble Sort
+    
     for (int x = 0; x < i - 1; x++) {
         for (j = 0; j < i - 1 - x; j++) {
             if (vetor[j] > vetor[j + 1]) {
